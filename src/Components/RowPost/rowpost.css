@@ -12,11 +12,19 @@
     display: none;
 }
 .poster{
+    cursor: pointer;
     max-height: 250px;
     margin-right: 10px;  
 }
+.poster:hover{
+    transform: scale(1.08);
+}
+.smallPoster:hover{
+    transform: scale(1.08);
+}
 
 .smallPoster{
+    cursor: pointer;
     max-height: 150px;
     margin-right: 10px;  
    
